@@ -1,0 +1,24 @@
+{
+  "name": "dirtydocs",
+  "version": "0.0.1",
+  "description": "Quick and dirty single page docs from JSDoc doclets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walkermatt/dirtydocs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/walkermatt/dirtydocs/issues"
+  },
+  "main": "index.js",
+  "bin": "cli.js",
+  "author": "Matt Walker <walkermatt@longwayaround.org.uk> (http://longwayaround.org.uk/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "jsdoc": "3.3.x"
+  },
+  "dependencies": {
+    "nunjucks": "~1.2.0",
+    "lodash": "~3.1.0",
+    "jspath": "~0.3.0"
+  }
+}
